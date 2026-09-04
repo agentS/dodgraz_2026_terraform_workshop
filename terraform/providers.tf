@@ -1,4 +1,3 @@
 provider "github" {
-  owner = "agentS"
-
+  owner = var.github_owner
 }
