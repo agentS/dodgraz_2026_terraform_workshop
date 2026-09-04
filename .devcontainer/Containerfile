@@ -66,5 +66,5 @@ RUN az version && terraform -version && tflint --version && git --version
 # Default to the non-root `vscode` user provided by the base image.
 USER vscode
 
-LABEL org.opencontainers.image.source="https://github.com/patkoch/azure-terraform-codespace" \
+LABEL org.opencontainers.image.source="https://www.github.com/agentS/dodgraz_2026_terraform_workshop" \
 	  org.opencontainers.image.description="Devcontainer image with Azure CLI, Terraform and TFLint"
