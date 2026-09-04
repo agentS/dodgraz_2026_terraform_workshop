@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd terraform
+cd terraform/
 terraform plan -out tfplan
 terraform apply "tfplan"
